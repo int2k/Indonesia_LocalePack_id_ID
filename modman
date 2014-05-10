@@ -1,0 +1,6 @@
+src/app/locale/id_ID									app/locale/id_ID
+src/app/design/adminhtml/default/default/locale/id_ID	app/design/adminhtml/default/default/locale/id_ID
+src/app/design/frontend/default/blank/locale/id_ID		app/design/frontend/default/blank/locale/id_ID
+src/app/design/frontend/default/default/locale/id_ID	app/design/frontend/default/default/locale/id_ID
+src/app/design/frontend/default/iphone/locale/id_ID		app/design/frontend/default/iphone/locale/id_ID
+src/app/design/frontend/default/modern/locale/id_ID		app/design/frontend/default/modern/locale/id_ID

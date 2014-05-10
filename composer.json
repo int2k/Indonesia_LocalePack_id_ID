@@ -1,0 +1,15 @@
+{
+  "name" : "int2k/indonesia-localepack-id-id",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "authors":[
+        {
+            "name":"Heri (int2k)"
+        }
+    ],
+  "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
