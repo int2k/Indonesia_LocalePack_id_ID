@@ -1,5 +1,7 @@
 {
   "name" : "int2k/indonesia-localepack-id-id",
+"license": "OSL-3.0",
+    "type": "magento-module",
   "repositories" : [ {
     "type" : "composer",
     "url" : "https://packagist.org/"
