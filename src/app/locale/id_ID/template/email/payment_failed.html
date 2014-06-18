@@ -1,8 +1,4 @@
-{* This is a comment block
-
-Use vars: {{var var_name}}
-*}<!--@subject Payment Transaction Failed Reminder @-->
-<!--@vars
+<!--@subject Payment Transaction Failed Reminder @--><!--@vars
 {"var reason":"Transaction Failed Reason",
 "var checkoutType":"Checkout Type",
 "var customerEmail":"Customer Email",
@@ -16,6 +12,7 @@ Use vars: {{var var_name}}
 "var dateAndTime":"Date and Time of Transaction"}
 @-->
 
+
 <table>
     <thead>
         <tr>
@@ -28,42 +25,52 @@ Use vars: {{var var_name}}
                 <p>
                     <b>Reason</b><br />
                     {{var reason}}
+                
                 </p>
                 <p>
                     <b>Checkout Type</b><br />
                     {{var checkoutType}}
+                
                 </p>
                 <p>
                     <b>Customer:</b><br />
                     <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+                
                 </p>
                 <p>
                     <b>Items</b><br />
                     {{var items}}
+                
                 </p>
                 <p>
                     <b>Total:</b><br />
                     {{var total}}
+                
                 </p>
                 <p>
                     <b>Billing Address:</b><br />
                     {{var billingAddress.format('html')}}
+                
                 </p>
                 <p>
                     <b>Shipping Address:</b><br />
                     {{var shippingAddress.format('html')}}
+                
                 </p>
                 <p>
                     <b>Shipping Method:</b><br />
                     {{var shippingMethod}}
+                
                 </p>
                 <p>
                     <b>Payment Method:</b><br />
                     {{var paymentMethod}}
+                
                 </p>
                 <p>
-                    <b>Date & Time:</b><br />
+                    <b>Date &amp; Time:</b><br />
                     {{var dateAndTime}}
+                
                 </p>
             </td>
         </tr>
